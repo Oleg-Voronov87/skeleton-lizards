@@ -1,0 +1,651 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a :visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*---------------------*/
+@font-face {
+  font-family: 'Fontspring-DEMO-theseasons-bd';
+  src: url("/fonts/Fontspring-DEMO-theseasons-bd.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontspring-DEMO-theseasons-reg';
+  src: url("/fonts/Fontspring-DEMO-theseasons-reg.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-width: 1360;
+  font-family: Fontspring-DEMO-theseasons-bd;
+  color: #545454;
+}
+
+.wrapper {
+  background-color: #f6a926;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.tpage {
+  background-color: #f6ecc3;
+}
+
+.tpage__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0 20px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 60px;
+}
+
+.tpage__menu {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  letter-spacing: 1px;
+  margin: 20px 0 0 0;
+  font-size: 22px;
+}
+
+.tpage__menu a {
+  color: #5271ff;
+  text-shadow: 0px 0px 1px black;
+}
+
+.tpage__menu a:hover {
+  color: #f6a926;
+}
+
+.tpage__menu a:active {
+  color: #c28620;
+}
+
+.tpage__menu li {
+  display: inline;
+  margin: 0 30px 0 0;
+}
+
+.tpage__twitter {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+
+.tpage__discord {
+  display: inline;
+}
+
+.tpage__clouds {
+  padding: 0 0 40px 0;
+}
+
+.tpage__clouds :first-child {
+  position: relative;
+  left: 120px;
+  top: 50px;
+}
+
+.tpage__clouds :nth-child(2) {
+  position: relative;
+  left: 350px;
+}
+
+.tpage__clouds :nth-child(3) {
+  position: relative;
+  top: 70px;
+  left: 420px;
+}
+
+.tpage__clouds :nth-child(4) {
+  position: relative;
+  left: 670px;
+}
+
+.tpage__titletext {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+
+.tpage__titlebackground {
+  position: relative;
+  z-index: 2;
+}
+
+.intro__header {
+  color: #5271ff;
+  font-size: 50px;
+  margin: 0 0 0 90px;
+  padding: 0 0 100px 0;
+}
+
+.intro__content {
+  font-size: 37px;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0 50px 0 0;
+  padding: 0 0 50px 0;
+}
+
+.intro__text {
+  max-width: 600px;
+  margin: 0 50px;
+}
+
+.intro__nft {
+  overflow: hidden;
+  border-radius: 500%;
+}
+
+.intro__elements :first-child {
+  position: relative;
+  top: 170px;
+  left: 1220px;
+}
+
+.intro__elements :nth-child(2) {
+  position: relative;
+  top: 650px;
+  left: 620px;
+}
+
+.intro__elements :nth-child(3) {
+  position: relative;
+  top: 790px;
+  left: -140px;
+}
+
+.community__header {
+  color: #5271ff;
+  font-size: 50px;
+  margin: 0 0 0 90px;
+  padding: 50px 0 100px 0;
+}
+
+.community__elements :first-child {
+  position: relative;
+  top: 770px;
+}
+
+.community__elements :nth-child(2) {
+  position: relative;
+  top: 150px;
+  left: 1150px;
+}
+
+.community__content {
+  text-align: justify;
+  font-size: 30px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0 0 0 70px;
+  padding: 0 0 100px 0;
+}
+
+.community__gif {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.community__text {
+  max-width: 700px;
+  margin: 0 70px 0 50px;
+}
+
+.roadmap1__header {
+  color: #5271ff;
+  font-size: 50px;
+  margin: 0 0 0 90px;
+  padding: 50px 0 30px 0;
+}
+
+.roadmap1__subheader {
+  color: black;
+  font-size: 27px;
+  margin: 0 0 0 90px;
+  padding: 0 0 100px 0;
+}
+
+.roadmap1__content1 {
+  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  font-size: 30px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0 0 200px 0;
+}
+
+.roadmap1__text1 {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+  max-width: 450px;
+  color: #737373;
+}
+
+.roadmap1__text1 li {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  color: black;
+  margin: 0 0 0 50px;
+}
+
+.roadmap1__text1 li::before {
+  content: '';
+  margin: 0 10px 5px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+  display: inline-block;
+}
+
+.roadmap1__content2 {
+  background: url(/img/BB/BruisedBackground.png) no-repeat 400px;
+  font-size: 30px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.roadmap1__gif1 {
+  z-index: 2;
+  position: relative;
+  top: 20px;
+  margin: 0 0 0 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.roadmap1__text2 {
+  position: relative;
+  top: 50px;
+  z-index: 2;
+  max-width: 530px;
+  color: #737373;
+}
+
+.roadmap1__text2 li {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  color: black;
+  margin: 0 0 0 50px;
+}
+
+.roadmap1__text2 li::before {
+  content: '';
+  margin: 0 10px 5px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+  display: inline-block;
+}
+
+.roadmap1__gif2 {
+  z-index: 2;
+  position: relative;
+  left: 210px;
+  margin: 0 100px 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.roadmap1__elements :first-child {
+  position: relative;
+  left: 60px;
+  top: 70px;
+}
+
+.roadmap1__elements :nth-child(2) {
+  position: relative;
+  top: 550px;
+  left: 1150px;
+}
+
+.roadmap2__elements :first-child {
+  position: relative;
+  left: 80px;
+  top: 250px;
+}
+
+.roadmap2__elements :nth-child(2) {
+  position: relative;
+  top: 680px;
+  left: 1120px;
+}
+
+.roadmap2__content1 {
+  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  font-size: 30px;
+  line-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0 0 200px 0;
+}
+
+.roadmap2__text1 {
+  position: relative;
+  top: 40px;
+  margin: 0 0 0 150px;
+  z-index: 2;
+  max-width: 450px;
+  color: #737373;
+}
+
+.roadmap2__text1 li {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  color: black;
+  margin: 0 0 0 50px;
+}
+
+.roadmap2__text1 li::before {
+  content: '';
+  margin: 0 10px 5px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+  display: inline-block;
+}
+
+.roadmap2__gif1 {
+  z-index: 2;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  margin: 0 0 0 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.roadmap2__content2 {
+  background: url(/img/BB/BruisedBackground.png) no-repeat 400px;
+  font-size: 30px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.roadmap2__gif2 {
+  z-index: 2;
+  position: relative;
+  left: 120px;
+  margin: 0 100px 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.roadmap2__text2 {
+  position: relative;
+  left: -50px;
+  top: 10px;
+  z-index: 2;
+  max-width: 600px;
+  color: #737373;
+}
+
+.roadmap2__text2 li {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  color: black;
+  margin: 0 0 0 50px;
+}
+
+.roadmap2__text2 li::before {
+  content: '';
+  margin: 0 10px 5px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+  display: inline-block;
+}
+
+.roadmap3__elements :first-child {
+  position: relative;
+  left: 80px;
+  top: 250px;
+}
+
+.roadmap3__content {
+  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  font-size: 30px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0 0 200px 0;
+}
+
+.roadmap3__text {
+  position: relative;
+  top: 80px;
+  margin: 0 0 0 150px;
+  z-index: 2;
+  max-width: 450px;
+  color: #737373;
+}
+
+.roadmap3__text li {
+  font-family: Fontspring-DEMO-theseasons-reg;
+  color: black;
+  margin: 0 0 0 50px;
+}
+
+.roadmap3__text li::before {
+  content: '';
+  margin: 0 10px 5px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #737373;
+  display: inline-block;
+}
+
+.roadmap3__gif1 {
+  z-index: 2;
+  position: relative;
+  margin: 0 0 0 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.qablock {
+  background: url(/img/BB/BruisedBackground2.png) no-repeat 30px;
+}
+
+.qablock__title {
+  font-size: 60px;
+  text-align: center;
+  color: #008037;
+  font-weight: bold;
+  padding: 0 0 30px 0;
+}
+
+.qablock__rows {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.qablock__item {
+  padding: 0 50px 50px 0;
+}
+
+.qablock__q {
+  color: #004aad;
+  font-size: 35px;
+  padding: 0 0 10px 0;
+}
+
+.qablock__a {
+  font-size: 30px;
+}
+
+.team {
+  margin: 150px 0 0 0;
+}
+
+.team__title {
+  font-size: 100px;
+  color: #004aad;
+  text-align: center;
+  padding: 0 0 200px 0;
+}
+
+.team__rows {
+  text-align: center;
+  width: 1360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team__item {
+  padding: 0 0 200px 0;
+}
+
+.team__gif {
+  border-radius: 40%;
+  overflow: hidden;
+}
+
+.team__description {
+  margin: 20px 0 0 0;
+  padding: 5px 15px 5px 15px;
+  display: inline-block;
+  color: black;
+  background-color: #fec674;
+  border-radius: 50% 20% / 10% 40%;
+  font-size: 34px;
+}
