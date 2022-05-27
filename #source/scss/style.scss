@@ -559,7 +559,7 @@ body{
 	}
 
 	&__gif {
-		border-radius: 40%;
+		border-radius: 30% 35% / 20% 20%;
 		overflow: hidden;
 
 
@@ -571,7 +571,7 @@ body{
 		display: inline-block;
 		color: black;
 		background-color: #fec674;
-		border-radius: 50% 20% / 10% 40%;;
+		border-radius: 50% 20% / 30% 40%;
 		font-size: 34px;
 	}
 }
