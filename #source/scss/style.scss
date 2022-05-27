@@ -1,13 +1,13 @@
 @import "nullstyle.scss";
 @font-face {
-	font-family: Fontspring-DEMO-theseasons-bd;
-	src: url('/fonts/Fontspring-DEMO-theseasons-bd.otf');
+	font-family: "theseasonsbd";
+	src: url('../fonts/theseasonsbd.otf');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
-	font-family: Fontspring-DEMO-theseasons-reg;
-	src: url('/fonts/Fontspring-DEMO-theseasons-reg.otf');
+	font-family: "theseasonsreg";
+	src: url('../fonts/theseasonsreg.otf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -18,7 +18,7 @@
 
 body{
 	min-width: 1360;
-	font-family: Fontspring-DEMO-theseasons-bd;
+	font-family: theseasonsbd;
 	color: #545454;
 }
 .wrapper {
@@ -52,7 +52,7 @@ body{
 		}
 
 		&__menu {
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			
 			letter-spacing: 1px;
 			margin: 20px 0 0 0;
@@ -243,7 +243,7 @@ body{
 
 
 	&__content1 {
-		background: url(./img/BB/BruisedBackground.png) no-repeat;
+		background: url(../img/BB/BruisedBackground.png) no-repeat;
 		font-size: 30px;
 		line-height: 30px;
 		display: flex;
@@ -260,7 +260,7 @@ body{
 		color: #737373;
 		li{
 
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			color: black;
 			margin: 0 0 0 50px;
 			
@@ -278,7 +278,7 @@ body{
 	}
 
 	&__content2 {
-		background: url(./img/BB/BruisedBackground.png) no-repeat 400px;
+		background: url(../img/BB/BruisedBackground.png) no-repeat 400px;
 		font-size: 30px;
 		line-height: 40px;
 		display: flex;
@@ -306,7 +306,7 @@ body{
 		max-width: 530px;
 		color: #737373;
 		li{
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			color: black;
 			margin: 0 0 0 50px;
 			
@@ -362,7 +362,7 @@ body{
 	}
 
 	&__content1 {
-		background: url(./img/BB/BruisedBackground.png) no-repeat;
+		background: url(../img/BB/BruisedBackground.png) no-repeat;
 		font-size: 30px;
 		line-height: 35px;
 		display: flex;
@@ -379,7 +379,7 @@ body{
 		color: #737373;
 		li{
 
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			color: black;
 			margin: 0 0 0 50px;
 			
@@ -407,7 +407,7 @@ body{
 	}
 
 	&__content2 {
-		background: url(./img/BB/BruisedBackground.png) no-repeat 400px;
+		background: url(../img/BB/BruisedBackground.png) no-repeat 400px;
 		font-size: 30px;
 		line-height: 32px;
 		display: flex;
@@ -432,7 +432,7 @@ body{
 		max-width: 600px;
 		color: #737373;
 		li{
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			color: black;
 			margin: 0 0 0 50px;
 			
@@ -459,7 +459,7 @@ body{
 	}
 
 	&__content {
-		background: url(./img/BB/BruisedBackground.png) no-repeat;
+		background: url(../img/BB/BruisedBackground.png) no-repeat;
 		font-size: 30px;
 		line-height: 40px;
 		display: flex;
@@ -476,7 +476,7 @@ body{
 		color: #737373;
 		li{
 
-			font-family: Fontspring-DEMO-theseasons-reg;
+			font-family: theseasonsreg;
 			color: black;
 			margin: 0 0 0 50px;
 			
@@ -501,7 +501,7 @@ body{
 	}
 }
 .qablock {
-	background: url(./img/BB/BruisedBackground2.png) no-repeat 30px;
+	background: url(../img/BB/BruisedBackground2.png) no-repeat 30px;
 
 
 	&__title {
