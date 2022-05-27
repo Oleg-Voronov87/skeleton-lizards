@@ -69,14 +69,14 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------*/
 @font-face {
   font-family: 'Fontspring-DEMO-theseasons-bd';
-  src: url("/fonts/Fontspring-DEMO-theseasons-bd.otf");
+  src: url("./fonts/Fontspring-DEMO-theseasons-bd.otf");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fontspring-DEMO-theseasons-reg';
-  src: url("/fonts/Fontspring-DEMO-theseasons-reg.otf");
+  src: url("./fonts/Fontspring-DEMO-theseasons-reg.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -302,7 +302,7 @@ body {
 }
 
 .roadmap1__content1 {
-  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  background: url(./img/BB/BruisedBackground.png) no-repeat;
   font-size: 30px;
   line-height: 30px;
   display: -webkit-box;
@@ -339,7 +339,7 @@ body {
 }
 
 .roadmap1__content2 {
-  background: url(/img/BB/BruisedBackground.png) no-repeat 400px;
+  background: url(./img/BB/BruisedBackground.png) no-repeat 400px;
   font-size: 30px;
   line-height: 40px;
   display: -webkit-box;
@@ -420,7 +420,7 @@ body {
 }
 
 .roadmap2__content1 {
-  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  background: url(./img/BB/BruisedBackground.png) no-repeat;
   font-size: 30px;
   line-height: 35px;
   display: -webkit-box;
@@ -468,7 +468,7 @@ body {
 }
 
 .roadmap2__content2 {
-  background: url(/img/BB/BruisedBackground.png) no-repeat 400px;
+  background: url(./img/BB/BruisedBackground.png) no-repeat 400px;
   font-size: 30px;
   line-height: 32px;
   display: -webkit-box;
@@ -523,7 +523,7 @@ body {
 }
 
 .roadmap3__content {
-  background: url(/img/BB/BruisedBackground.png) no-repeat;
+  background: url(./img/BB/BruisedBackground.png) no-repeat;
   font-size: 30px;
   line-height: 40px;
   display: -webkit-box;
@@ -569,7 +569,7 @@ body {
 }
 
 .qablock {
-  background: url(/img/BB/BruisedBackground2.png) no-repeat 30px;
+  background: url(./img/BB/BruisedBackground2.png) no-repeat 30px;
 }
 
 .qablock__title {
