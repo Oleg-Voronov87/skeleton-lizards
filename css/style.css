@@ -415,7 +415,7 @@ body {
 
 .roadmap2__elements :nth-child(2) {
   position: relative;
-  top: 680px;
+  top: 710px;
   left: 1120px;
 }
 
@@ -460,7 +460,7 @@ body {
 .roadmap2__gif1 {
   z-index: 2;
   position: relative;
-  top: 30px;
+  top: 10px;
   left: 20px;
   margin: 0 0 0 100px;
   border-radius: 50%;
